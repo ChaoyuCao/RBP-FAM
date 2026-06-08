@@ -1,5 +1,5 @@
 # RBP-FAM
-The code for RBP-FAM is provided for review and revision. It leverages AlphaFold 3-derived representations and graph neural networks (GNNs) to predict the binding sites and affinities of RNA-binding proteins. To reduce computational costs and enhance efficiency in this Capsule, we have included pre-computed AlphaFold 3-derived representations for execution. AlphaFold 3 -drived representations for all proteins used in this paper will be uploaded to Zenodo prior to publication.
+The code for RBP-FAM is provided for peer review for paper "RBP-FAM: Sequence-Based Function Annotation of RNA-Binding Proteins Using Graph Neural Networks and AlphaFold3-Derived Representations". It leverages AlphaFold 3-derived representations and graph neural networks (GNNs) to predict the binding sites and affinities of RNA-binding proteins. To reduce computational costs and enhance efficiency in this Capsule, we have included pre-computed AlphaFold 3-derived representations for execution. AlphaFold 3 -drived representations for all proteins used in this paper will be uploaded to Zenodo prior to publication.
 
 ## Installation
 We recommend building two independent conda environments, named "af3" and "RBP-FAM". The "af3" environment is for running AlphaFold 3, and the "RBP-FAM" environment is for performing inference.
